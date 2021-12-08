@@ -24,3 +24,4 @@ Challenges:
 
 Instructions:
 - If anything is needed beyond making the application from this code, the way to build it would depend on what is needed. For instance if the program needed to add something for disabled users, then the code would need to be edited to add settings respective to the user. Such as using the program with just your voice for those who are unable to speak or choose not to speak. If something is needed for a larger consumer audience, then settings for languages or customization would be an option. These additions could be added to the main menu and the user can change their preferences at any time.
+# cs202-f21-semester-project-g5
