@@ -2,11 +2,12 @@
 #include <iostream>
 #include <vector>
 
+using namespace std;
+
 const int FILE_SIZE = 10000;
 
-int main(int argv, char argc[]){
+int main(int argv, char const *argc[]){
     int basic = 0;
-    int data;
     int file;
     int processor = 0;
 
@@ -28,6 +29,11 @@ int main(int argv, char argc[]){
             std::cout<<"File does not exist or is not a wav file."<<std::endl;
             return 0;
     }
+    
+class data{
+public: int data();
+};
+
     auto metadata = std::data::get_metadata::metadata();
         std::cout<<"Metadata: "<<metadata()<<std::endl;
         std::cout<<"Would you like to use the processors? No = 0, Yes = 1"<<std::endl;
