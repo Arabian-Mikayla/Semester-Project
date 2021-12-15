@@ -11,13 +11,13 @@ Project Type:
 Contributions:
 - Maya Price: required processors, readme
 - Mikayla Arabian: menu, save file, doxygen, readme
-- Greg Jordan: load file, readme
+- Greg Jordan: load file, readme, makefile
 
 UML Diagram
 - With the program
 
 Issues:
-- Issues with our project include the menu portion not being compeltely debugged. The menu portion has three bugs left over in line 34, 31, and 46. Line 34 having the bug where the return type specification for the constructor is invalid. Line 37 had the problem that data was not declared. Line 46 had the issue where there needed to be a primary expression before ')'. Besides these three errors, the rest were fixed and the other parts of the program are able to be compiled and ran as an executable.
+- Issues with our project include the menu portion not being compeltely debugged. The menu portion has three bugs left over in line 34, 31, and 46. Line 34 having the bug where the return type specification for the constructor is invalid. Line 37 had the problem that data was not declared. Line 46 had the issue where there needed to be a primary expression before ')'. Besides these three errors, the rest were fixed and the other parts of the program are able to be compiled and ran as an executable. The remaining issues have been tried to be fixed, but anything done either does not work or causes more issues in the code.
 
 Challenges:
 - Challenegs we faced while doing this project was partially finding times we were free to meet up, but we managed to figure things out and get what we needed to done. Another challenge we faced was debugging the code, and all the errors we got when we tried to compile. We also had trouble figuring out how doxygen worked in the beginning. A challenge we also faced was making the code from scratch without any foundation as in there was no refernce code to look at besides the videos and the basic layout of the menu we were given. Another challenge the code gave was circular dependencies when it came to the load file portion. The final challenges faced was the echo processor and stacking sounds in a loop.
